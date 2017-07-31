@@ -776,14 +776,23 @@ footer span {
         left: -700px;
     }
 
+    .back-2{
+        display: none;
+    }
+
     .form-text, .form-tel, .form-email, textarea, .flex-form, .flex-form-part-1, .flex-form-part-2 {
         display: block;
         width: 100% !important;
+        padding-right: 15px;
 
     }
 
+    textarea{
+        width: 98.5% !important;
+    }
     .form-text, .form-tel, .form-email, textarea {
-        margin-top: 10px;
+        margin: 10px 0 0 15px !important;
+        padding-right: 15px;
     }
 
     .menu-mobile, .btn-lg {
