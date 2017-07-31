@@ -6,4 +6,6 @@
      $headers = "From:" . $from;
 
  mail($to,$subject,$message, $headers);
+header('Location: https://ak1a.github.io/beavers/index.html');
+exit;
 	
