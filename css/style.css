@@ -700,9 +700,24 @@ footer span {
 
 @media screen and (max-width: 860px) and (min-width: 720px) {
 
-    .menu-mobile, .btn-lg {
-        display: none !important;
+
+    .mobile-menu-wrapper {
+        position: fixed;
+        width: 100%;
+        z-index: 99999;
     }
+
+    .mobile-menu-wrapper button {
+        right: 0;
+        left: auto;
+        float: right;
+        z-index: 99999;
+    }
+
+    .nav > li {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
 
     .contain {
         display: none;
@@ -795,8 +810,21 @@ footer span {
         padding-right: 15px;
     }
 
-    .menu-mobile, .btn-lg {
-        display: none !important;
+    .mobile-menu-wrapper {
+        position: fixed;
+        width: 100%;
+        z-index: 99999;
+    }
+
+    .mobile-menu-wrapper button {
+        right: 0;
+        left: auto;
+        float: right;
+        z-index: 99999;
+    }
+
+    .nav > li {
+        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .mobile {
