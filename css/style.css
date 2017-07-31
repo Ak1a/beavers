@@ -433,6 +433,10 @@ footer {
     text-align: center;
 }
 
+.send-btn{
+    color: black;
+}
+
 footer span {
     padding-top: 170px;
     padding-bottom: 70px;
