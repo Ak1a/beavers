@@ -217,18 +217,18 @@
     <form action="mail.php" method="post">
         <div class="flex-form">
             <div class="flex-form-part-1">
-                <input class="form-text" name="name" type="text" placeholder="  Имя">
-                <input class="form-email" name="email" type="email" placeholder="  Email">
+                <input class="form-text" name="name" type="text" placeholder="  Имя" required>
+                <input class="form-email" name="email" type="email" placeholder="  Email" required>
 
             </div>
             <div class="flex-form-part-2">
-                <input class="form-tel" name="tel" type="tel" placeholder="  Телефон">
-                <input class="form-text" name="subject" type="text" placeholder="  Тема сообщения">
+                <input class="form-tel" name="tel" type="tel" placeholder="  Телефон" required>
+                <input class="form-text" name="subject" type="text" placeholder="  Тема сообщения" required>
             </div>
             <div class="textarea form-message">
 			
 			<textarea name="message" id="message"
-                      placeholder="Текст сообщения"></textarea>
+                      placeholder="Текст сообщения" required></textarea>
             </div>
 
         </div>
