@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <caret line="55" column="64" lean-forward="false" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -28,8 +28,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="323" column="27" lean-forward="false" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
+            <state relative-caret-position="-741">
+              <caret line="806" column="12" lean-forward="false" selection-start-line="806" selection-start-column="5" selection-end-line="806" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -45,9 +45,12 @@
       <find>720</find>
       <find>circle-3</find>
       <find>mobile-menu</find>
-      <find>menu-mobile</find>
       <find>.menu-mobile</find>
       <find>span-item-1</find>
+      <find>menu-mobile</find>
+      <find>send-btn-wrapper</find>
+      <find>logo-sub</find>
+      <find>contain</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,12 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501485540429</updated>
-      <workItem from="1501485542088" duration="7483000" />
+      <workItem from="1501485542088" duration="10033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7483000" />
+    <option name="totallyTimeSpent" value="10033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -180,15 +183,15 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <caret line="55" column="64" lean-forward="false" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="323" column="27" lean-forward="false" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
+        <state relative-caret-position="-741">
+          <caret line="806" column="12" lean-forward="false" selection-start-line="806" selection-start-column="5" selection-end-line="806" selection-end-column="12" />
           <folding />
         </state>
       </provider>
