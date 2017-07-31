@@ -132,7 +132,7 @@ a {
 
 .span-item-1 {
     position: relative;
-    top: 3px;
+    top: 10px;
 }
 
 .span-item-contact-1 {
@@ -170,7 +170,7 @@ a {
     background: url(../imgs/circl2.png) no-repeat;
     background-size: 312px;
     height: 430px;
-    width: 312px;
+    width: 300px;
 }
 
 .circle-3 {
@@ -185,9 +185,9 @@ a {
     /*left: 15px;*/
     background: url(../imgs/circl4.png) no-repeat;
     background-size: 267px;
-    height: 300px;
+    height: 430px;
     width: 300px;
-    margin-right: 80px;
+    /*margin-right: 80px;*/
 }
 
 .circle-5 {
@@ -195,8 +195,8 @@ a {
     /*left: 15px;*/
     background: url(../imgs/circl5.png) no-repeat;
     background-size: 310px;
-    height: 300px;
-    width: 310px;
+    height: 430px;
+    width: 300px;
 }
 
 .text-1 {
@@ -209,9 +209,9 @@ a {
 .text-2 {
     position: relative;
     top: 105px;
-    left: 7px;
+    left: 67px;
     font-size: 22px;
-    /*width: 140px;*/
+    width: 180px;
     text-align: center;
 }
 
@@ -446,7 +446,7 @@ footer span {
     font-size: 24px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 495px) {
     .logo {
         position: relative;
         left: -100px;
@@ -517,6 +517,10 @@ footer span {
         position: relative;
         top: 16px;
     }
+    .span-item-2 {
+        position: relative;
+        top: 30px;
+    }
 
     .span-item-contact-2 {
         margin-top: 20px;
@@ -541,27 +545,22 @@ footer span {
         display: none;
     }
 
-    .circle-1, .circle-2, .circle-5 {
-        position: relative;
-        left: 10%;
-        margin: 0;
-    }
-
-    .circle-3 {
-        position: relative;
-        left: 15%;
-
-    }
-
-    .circle-4 {
-        position: relative;
-        left: 22%;
-    }
+  .circle-3, .circle-4{
+      position: relative;
+      left: 20px;
+  }
 
     .menu {
         display: none;
     }
 
+    .under-circle-1, .under-circle-2, .under-circle-3, .under-circle-4 ,.under-circle-5 {
+        font-size: 16px;
+        width: 250px;
+        position: relative;
+        top: 200px;
+        left: 15px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -594,7 +593,7 @@ footer span {
     }
 }
 
-@media screen and (max-width: 720px) and (min-width: 501px) {
+@media screen and (max-width: 720px) and (min-width: 496px) {
 
     .span-item-contact-1, .span-item-contact-2 {
         margin: 0;
@@ -645,6 +644,10 @@ footer span {
         position: relative;
         top: 30px;
     }
+    .span-item-2 {
+        position: relative;
+        top: 40px;
+    }
 
     .span-item-contact-2 {
         margin-top: 20px;
@@ -683,6 +686,12 @@ footer span {
     }
 }
 
+@media only screen and (max-width: 860px) and (min-width: 773px){
+.back-2{
+    display: none;
+}
+}
+
 @media screen and (max-width: 860px) and (min-width: 720px) {
 
     .menu-mobile {
@@ -713,8 +722,13 @@ footer span {
     }
 
     .circle-1, .circle-2, .circle-3, .circle-4, .circle-5 {
-        margin: 0;
+        margin: auto !important;
         position: inherit;
+    }
+
+    .circle-3, .circle-4{
+        position: relative;
+        left: 20px;
     }
 
     .form-text, .form-tel, .form-email, textarea, .flex-form, .flex-form-part-1, .flex-form-part-2 {
@@ -740,9 +754,28 @@ footer span {
     .menu {
         display: none;
     }
+
+    .back-1{
+        display: none;
+    }
+
+    .back-2{
+        right: -500px;
+    }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 860px) {
+
+
+    .form-text, .form-tel, .form-email, textarea, .flex-form, .flex-form-part-1, .flex-form-part-2 {
+        display: block;
+        width: 100% !important;
+
+    }
+
+    .form-text, .form-tel, .form-email, textarea {
+        margin-top: 10px;
+    }
 
     .menu-mobile {
         display: none !important;
@@ -829,6 +862,7 @@ footer span {
     margin-top: -27px;
 }
 
+
 @media screen and (min-width: 800px) and (max-width: 1400px){
     .menu{
         right: 10px;
@@ -837,5 +871,11 @@ footer span {
 
     .back-1{
         left: -625px!important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .back-1{
+        left: -600px!important;
     }
 }
