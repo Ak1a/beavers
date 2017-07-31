@@ -311,7 +311,6 @@ a {
     width: 485px;
     color: #fff;
     font-size: 13px;
-    margin-left: 15px;
     margin-right: 15px;
 }
 
@@ -323,7 +322,6 @@ textarea {
     height: 200px;
     width: 1003px;
     color: #fff !important;
-    margin-left: 15px;
     margin-right: 15px;
     padding: 10px;
 }
@@ -459,10 +457,6 @@ footer span {
         left: 5%;
     }
 
-    .menu-mobile {
-        margin-left: 20%;
-    }
-
     .btn-lg {
         position: relative;
         top: 10px;
@@ -485,6 +479,12 @@ footer span {
     .form-text, .form-tel, .form-email, textarea {
         /*width: 300px !important;*/
         margin-top: 10px;
+    }
+
+    .form-text, .form-tel, .form-email, textarea, .flex-form, .flex-form-part-1, .flex-form-part-2 {
+        display: block;
+        width: 100% !important;
+
     }
 
     .back-2, .back-1 {
@@ -515,11 +515,12 @@ footer span {
 
     .span-item-1 {
         position: relative;
-        top: 16px;
+        top: 26px;
     }
+
     .span-item-2 {
         position: relative;
-        top: 30px;
+        top: 40px;
     }
 
     .span-item-contact-2 {
@@ -545,27 +546,41 @@ footer span {
         display: none;
     }
 
-  .circle-3, .circle-4{
-      position: relative;
-      left: 20px;
-  }
+    .circle-3, .circle-4 {
+        position: relative;
+        left: 20px;
+    }
 
     .menu {
         display: none;
     }
 
-    .under-circle-1, .under-circle-2, .under-circle-3, .under-circle-4 ,.under-circle-5 {
+    .under-circle-1, .under-circle-2, .under-circle-3, .under-circle-4, .under-circle-5 {
         font-size: 16px;
-        width: 250px;
-        position: relative;
-        top: 200px;
-        left: 15px;
+        width: 80%;
     }
+
+    .under-circle-1 {
+        margin-left: 20px;
+    }
+
+    .under-circle-2 {
+        margin-left: 30px;
+    }
+
+    .under-circle-4 {
+        margin-left: 20px;
+    }
+
+    .under-circle-5 {
+        margin-left: 40px;
+    }
+
 }
 
-@media screen and (max-width: 750px) {
-    .send-btn-wrapper{
-        width: 100%!important;
+@media screen and (max-width: 720px) {
+    .send-btn-wrapper {
+        width: 100% !important;
     }
 
     .mobile-menu-wrapper {
@@ -581,14 +596,12 @@ footer span {
         z-index: 99999;
     }
 
-
     .nav > li {
         background-color: rgba(0, 0, 0, 0.1);
     }
 
     .form-text, .form-tel, .form-email, textarea {
         display: block;
-        width: 95% !important;
         margin: 5px 0 auto;
     }
 }
@@ -644,6 +657,7 @@ footer span {
         position: relative;
         top: 30px;
     }
+
     .span-item-2 {
         position: relative;
         top: 40px;
@@ -677,24 +691,14 @@ footer span {
         position: inherit;
     }
 
-    .menu-mobile {
-        margin-left: 250px;
-    }
-
     .menu {
         display: none;
     }
 }
 
-@media only screen and (max-width: 860px) and (min-width: 773px){
-.back-2{
-    display: none;
-}
-}
-
 @media screen and (max-width: 860px) and (min-width: 720px) {
 
-    .menu-mobile {
+    .menu-mobile, .btn-lg {
         display: none !important;
     }
 
@@ -726,7 +730,7 @@ footer span {
         position: inherit;
     }
 
-    .circle-3, .circle-4{
+    .circle-3, .circle-4 {
         position: relative;
         left: 20px;
     }
@@ -755,17 +759,16 @@ footer span {
         display: none;
     }
 
-    .back-1{
+    .back-1 {
         display: none;
     }
 
-    .back-2{
+    .back-2 {
         right: -500px;
     }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 860px) {
-
 
     .form-text, .form-tel, .form-email, textarea, .flex-form, .flex-form-part-1, .flex-form-part-2 {
         display: block;
@@ -862,20 +865,25 @@ footer span {
     margin-top: -27px;
 }
 
-
-@media screen and (min-width: 800px) and (max-width: 1400px){
-    .menu{
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+    .menu {
         right: 10px;
         left: inherit;
     }
 
-    .back-1{
-        left: -625px!important;
+    .back-1 {
+        left: -625px !important;
     }
 }
 
 @media screen and (min-width: 1400px) {
-    .back-1{
-        left: -600px!important;
+    .back-1 {
+        left: -600px !important;
+    }
+}
+
+@media screen and (min-width: 826px) {
+    .circle-3 {
+        margin-left: 25px;
     }
 }
